@@ -8,8 +8,6 @@
     name: common
     tasks_from: nodejs-setup
 
-
-
 - name: copy mongodb repo
   ansible.builtin.copy:
     src: mongo.repo
