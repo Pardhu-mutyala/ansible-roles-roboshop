@@ -1,0 +1,1 @@
+Environment: MONGO_URL="mongodb://{{ MONGO_HOSTNAME = mongodb.rise.shine
