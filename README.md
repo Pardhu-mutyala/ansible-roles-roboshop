@@ -20,3 +20,4 @@ templates
 vars
     main.yaml --> we can keep all the vars here
  
+ Handlers --> we can usee handlers properly for restarting the servers or services when any configuration changes happend.

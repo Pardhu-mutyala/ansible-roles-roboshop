@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.rise.shine
+USER_HOST: user.rise.shine
+CART_HOST: cart.rise.shine
+SERVICE_HOST: service.rise.shine
+PAYMENT_HOST: payment.rise.shine
