@@ -20,4 +20,7 @@ templates
 vars
     main.yaml --> we can keep all the vars here
  
- Handlers --> we can usee handlers properly for restarting the servers or services when any configuration changes happend.
+ Handlers --> these are notifiers in ansible. When there is a change in something if you want to notify oyhrt task we can use handlers.
+ we can usee handlers properly for restarting the servers or services when any configuration changes happend.
+ Eg:- change in nginx configure can notify restart task in handlers directory.
+   <some-name>.yaml
