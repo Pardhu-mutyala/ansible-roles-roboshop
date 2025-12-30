@@ -1,0 +1,2 @@
+REDIS_HOST: redis.rise.shine
+CATALOGUE_HOST: catalogue.rise.shine
