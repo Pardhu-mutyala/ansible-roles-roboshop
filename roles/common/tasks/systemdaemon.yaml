@@ -1,6 +1,6 @@
-- name: copy catalogue service to system directory
+- name: copy {{ component }} service to system directory
   ansible.duiltin.copy:
-    src: catalogue.service
+    src: "{{ component }}.service"
     dest: /etc/systemd/system/catalogue.service
 
 - name: systemctl demon reload
@@ -8,8 +8,8 @@
     demon_reload: true
 
 
-- name: start and enable catalogue
+- name: start and enable {{ component }}
   ansible.builtin.service:
-    name: catalogue
+    name: {{ component }}
     state: restarted
     enabled: yes

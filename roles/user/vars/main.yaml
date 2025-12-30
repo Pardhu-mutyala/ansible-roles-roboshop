@@ -1,0 +1,2 @@
+REDIS_HOST: redis.rise.shine
+MONGODB_HOST: mongodb.rise.shine
