@@ -1,0 +1,5 @@
+CART_HOST: cart.rise.shine
+USER_HOST: user.rise.shine
+RABBITM_HOST: rabbitmq.rise.shine
+RABBITM_USER: roboshop
+RABBITMQ_PASS: Roboshop@123

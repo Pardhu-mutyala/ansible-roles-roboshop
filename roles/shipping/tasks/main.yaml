@@ -4,7 +4,7 @@
     tasks_from: app-setup
 
 
-- name: maven set uo
+- name: maven set up
   include_role:
     name: common
     tasks_from: maven
@@ -23,7 +23,7 @@
   - /app/db/master-data.sql
 
 
-- name: maven set uo
+- name: systemd set up
   include_role:
     name: common
     tasks_from: systemd
