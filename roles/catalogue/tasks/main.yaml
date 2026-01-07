@@ -35,4 +35,11 @@
   include_role:
     name: common
     tasks_from: systemdaemon-setup
+
+- name: app account setup
+  tags:
+  - deployment
+  include_role:
+    name: common
+    tasks_from: deployment
   

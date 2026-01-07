@@ -25,4 +25,18 @@ vars
  Eg:- change in nginx configure can notify restart task in handlers directory.
    <some-name>.yaml
 
+
+
+
+Ansible Tag:-
+==============================================
+Use case--> If you want to run some specific tasks in ansile we use Ansible Tags to run that specific tasks.
+
+
+We can include other roles using include_role or import_role
+
+Include_role: it will include tasks in run time and it also validates during runtime only
+
+Import_role: Ansible validates the import_role before execution of playbook
+Tags and when conditions apply to the imported role and its tasks.
    
