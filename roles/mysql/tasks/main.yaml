@@ -1,0 +1,13 @@
+- name: install my sql server
+  ansible.builtin.dnf:
+    name: mysl-swerver
+    state: installed
+
+- name: start my sql server
+  ansible.builtin.service:
+    name: mysql
+    state: started
+    enabled: yes
+
+- name: et up root pwd
+  ansible.builtin.command: mysql_secure_installation --set-root-pass Roboshop@1
